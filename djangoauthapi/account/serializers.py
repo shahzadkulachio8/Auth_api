@@ -4,7 +4,6 @@ from django.utils.encoding import smart_str, force_bytes
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.core.mail import send_mail
-from django.conf import settings
 
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
